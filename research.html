@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="Sudhan Bhattarai">
+  <title> Sudhan Bhattarai</title>
+</head>
+
+<body class="sansserif">
+  <header>
+    <!-- Photo -->
+    <div class="row">
+      <div class="column left">
+        <h1 style="color:black; text-align:left">Sudhan Bhattarai</h1>
+      </div>
+      <!-- Headlines navigation bar -->
+      <div class="column right">
+        <p style ="text-align: center">I am actively looking for a graduate assistant position to start my Ph.D. in Fall 2021.</p>
+        <table align = "center">
+          <tr>
+            <td><a style="color: blue" href="index.html"><b>About</b></a>&nbsp; &nbsp;</td>
+            <td><a style="color: black" href="research.html"><b>Research</b></a>&nbsp; &nbsp;</td>
+            <td><a style="color: blue" href="education.html"><b>Education</b></a>&nbsp; &nbsp;</td>
+            <td><a style="color: blue" href="current_role.html"><b>Current Role</b></a>&nbsp; &nbsp;</td>
+            <td><a style="color: blue" href="publications.html"><b>Publications</b></a>&nbsp; &nbsp;</td>
+            <td><a style="color : blue" href="cv.pdf"><b>CV</b></a>&nbsp; &nbsp;</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="row">
+    <!-- Name and contacts -->
+    <div class="column left">
+      <img class = "round" width="100" src="images\\photo.jpeg" alt="Sudhan Bhattarai" />
+      <p style="color:black; text-align:left"><img width="17" src="images\\email.png" /> <i>sudhan.bhattarai26@gmail.com</i></p>
+      <p style="color:black;text-align:left"><img width="15" src="images\\phone.png" /> <i>+1(719)281-7095 </i></p>
+      <p><img width="15" src="images\\l.jpg" alt="L" /> <a style="color : blue" href="https://www.linkedin.com/in/sudhan-bhattarai-07526414a/"><b><i>LinkedIn</i></b></a></p>
+      <p><img width="15" src="images\\g.png" alt="G" /> <a style="color : blue" href="https://github.com/sudhan-bhattarai?tab=repositories/"><b><i>GitHub</i></b></a></p>
+      <p><img width="15" src="images\\f.png" alt="F" /> <a style="color : blue" href="https://www.facebook.com/bsn26" target="_blank"><b><i>Facebook</i></b></a></p>
+    </div>
+    <!-- details section -->
+    <div class="column right border" style="position:relative">
+      <!-- research -->
+      <p class="main">
+        I have a huge interest in research. I am always determined to keep my enthusiasm relentlessly on my work and I cherish every tiny opportunity that helps me to develop. Also, I like to work in a busy and demanding environment as it helps me to
+        sustain my creativity.
+      </p>
+      <p class="main">
+        I'm interested in both theoretical and applied research. Exploring and creating new algorithms stimulate me. Moreover, working on interesting applications is always exciting to me. Healthcare is my current area of application. I find the
+        contribution of ML/Data Science for the advancement of healthcare analytics very influential. Moreover, the optimization techniques on health system improvement, ML techniques to improve healthcare machinery/approaches and current research
+        trends of formulating DNN/CNN/RNN to model patients’ EHR data for insightful outcomes are the topics of my keen interest.
+      </p>
+      <hr>
+      <h4 style="color:black; text-align:left"> Current Research & MS Thesis</h4>
+      <h4 style="color:darkgreen"> <b> A prediction model to forecast a patient's time-span in hopsital </b></h4>
+      <h4 class="indented"> Methodlogy </h4>
+      <p class="main indented"> Processing numeric and natural language data to build different recurrent neural network models with transfer learning of a diverse range of inputs and most accurate output. Natural Language Processing (NLP) is also an integral part of the
+        algorithm. One dataset I am using for this project is:
+        <a style="color:blue" href="https://mimic.physionet.org/" target="_blank"> MIMIC III clinical</a>&nbsp;&nbsp;,
+      </p>
+      <h4 class="indented" style="color:black">
+        What is my concern?
+      </h4>
+      <p class="main indented">
+      In healthcare systems, resources planning plays a huge role and is a challenge as well. Furthermore, If healthcare providers could predict accurately the time a patient with a severe disease spends in hospital beforehand, it would help hugely on resources planning. But the information integration is also a challenge. In other words, the nature of data of a patient with heart problem may not match with the nature of data available for a patient with diabetic problem. But, can we build a generalized model which could take the input for a patient with any medical background and predict the timespan accurately? That’s the problem I want to solve with an answer of big Yes.
+      </p>
+      <section id="hhc">
+        <h4 style="color:darkgreen"> <b> Home Healthcare Routing Problem (HHCRP) in a dynamic environment </b></h4>
+        <h4 class="indented" style="color:black"> What is HHCRP? </h4>
+        <p class="main indented">
+          A home healthcare provider is a type of company destined to provide a periodic medical service to the patients at their own houses. Consequently, a challenge arises to build an efficient visit plan for the human resources available. The
+          challenge is commonly known as Home Healthcare Routing Problem (HHCRP).
+        <p class="main indented">
+          The HHCRP is similar to the traditional Vehicle Routing Problem (VRP) in which a fleet of vehicles available at a depot goes out to pick or deliver goods to the customers located in different places and finally returns back to the depot.
+          Similarly, in a HHCRP, a fleet of nurses available at the home care center goes out on a tour to serve the patients at their home and finally comes back to the center. Moreover, the problem can be made more realistic by using the standards
+          for nurses' start time, end time, service duration for each patient, qualification of the nurses and more of the patients' demands.
+          The following image summerizes a HHCR problem (<a style = "color:blue" href = "https://ars.els-cdn.com/content/image/1-s2.0-S0305054816301848-fx1_lrg.jpg" target="_blank">source</a>).</p>
+          <p class = "indented"><img width="500" src="images\\hhcrp.jpg" alt = "chest xray"></p>
+        </p>
+        <h4 class="indented" style="color:black"> What is my concern? </h4>
+        <p class="main indented">
+          The downside of the most researchers is that they worked only in a predefined static dataset to validate their theory. Healthcare providers often claim that the patients’ demands are very unpredictable. A few researchers addressed dynamic
+          case, but their forecast models used a simple known mathematical distribution. Health condition of a patient is completely different than that of others, even with the same disease, which can’t be explained accurately by mathematical distribution
+          but the patient’s condition itself. My research is to build the plan in dynamic scenario by using neural network and MIP optimization algorithms for a reliable and accurate routing model.
+        </p>
+      </section>
+      <hr>
+      <section>
+        <h4 style = "color:darkgreen">Neural network model to predict a patient's prognosis period from chest xray </h4>
+        <p class = "main indented">Prognosis of a patient is peculiar to him/her medical condition. Chest X-ray is a common information for many patients with several diseases.
+        Convolutional neural network models are successful to distinguish a disease from X-rays. When we predict a disease in a classification problem, we infer the results from a proximity function.
+        But from the prediction can we tell how chronic that disease is? Classification doesn't forecast how long may diseases take to heal. This project is about classifying a disease in such manner that we can also predict the prognosis period for the patients from a limited information available.</p>
+       <p class = "main indented"> In other words, in the following picture, how long does the patient in the condition shown by 2nd X-ray takes to come to the condition shown by the 1st X-ray? (<a style = "color:blue" href = "https://i.ibb.co/QXfZXcd/sample-lungs.png" target="_blank">source</a>)</p>
+        <p class = "indented"><img  width="500" src="images\\chest_xray.png" alt = "chest xray"></p>
+        <p>One dataset I am using for this project is: <a style="color:blue" href="https://nihcc.app.box.com/v/ChestXray-NIHCC" target="_blank">Chest Xray </a></p>
+      </section>
+      <hr>
+      <h4 style="color:black; text-align:left">
+        Past Research/Projects
+      </h4>
+      <h4 class="indented">
+        <a style="color: blue" href="publications.html"><b>Publications</b></a>
+      </h4>
+      <h4 class="indented">
+        <a style="color:blue" href="https://github.com/sudhan-bhattarai?tab=repositories">Other projects</a>
+      </h4>
+    </div>
+  </div>
+  <footter>
+  </footer>
+  <hr>
+</body>
+
+</html>
