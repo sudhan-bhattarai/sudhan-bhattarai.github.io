@@ -1,7 +1,7 @@
 body {
   font-size: 15px;
   margin-right: 10px;
-  background-color: #F8F8FF ;
+  background-color: #E6E6FA;
   height:100%;
   overflow: auto;
 }
@@ -38,13 +38,13 @@ body {
   left: 0;
   top: 0;
   bottom: 0;
-  font-size: 10px;
+  font-size: 14px;
   color: black;
   height : 100%;
   width: 25%;
   overflow: auto;
   position: fixed;
-  background-color: #FFE4E1;
+  background-color: #E6E6FA;
 }
 
 
