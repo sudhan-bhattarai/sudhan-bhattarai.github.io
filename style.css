@@ -1,7 +1,9 @@
 body {
   font-size: 15px;
-  margin-right: 10px;
-  background-color: #E6E6FA;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+  background-color: #D8BFD8;
   height:100%;
   overflow: auto;
 }
@@ -26,6 +28,11 @@ body {
 .column {
   float: left;
   height: 100%;
+  width: 700px;
+  border-style: inset;
+  padding: 15px;
+  background-color:#F5FFFA;
+  position: sticky;
 }
 .row:after {
   content: "";
@@ -33,7 +40,7 @@ body {
   clear: both;
 }
 
-.left {
+/* .left {
   padding: 10px;
   left: 0;
   top: 0;
@@ -54,7 +61,7 @@ body {
   width: 75%;
   position: relative;
   overflow: auto;
-}
+} */
 
 
 .indented {
@@ -89,4 +96,9 @@ p.main {
 .name{
   background-color: black;
   /* color: white; */
+}
+
+td {
+  text-align: center;
+  padding: 5px;
 }
